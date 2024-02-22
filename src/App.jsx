@@ -1,20 +1,25 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+// import logo from './images/github.svg'
 import './App.css'
+import logo from './components/Githublogo'
 
 const WeatherApiSection = ({ onFetchWeather }) => {
   const [city, setCity] = useState('');
 
   return (
     <div>
+      <div className='form-control'>
       <input
         type="text"
         placeholder="Enter city"
         value={city}
         onChange={(e) => setCity(e.target.value)}
-      />
-      <button onClick={() => onFetchWeather(city)}>Get Weather</button>
+      className='input input-alt'/>
+      <span className='input-border input-border-alt'></span>
+      </div>
+      <button onClick={() => onFetchWeather(city)} className='button'>Get Weather</button>
     </div>
   );
 };
