@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import logo from './images/github.svg'
 import './App.css'
-import logo from './components/Githublogo'
 
 const WeatherApiSection = ({ onFetchWeather }) => {
   const [city, setCity] = useState('');
