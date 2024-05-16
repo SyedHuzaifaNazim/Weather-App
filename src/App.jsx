@@ -1,7 +1,7 @@
 import { useState, useEffect} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-// import logo from './images/github.svg'
+import logo from './images/github.svg'
 import './App.css'
 import Weather from './components/Weather';
 
