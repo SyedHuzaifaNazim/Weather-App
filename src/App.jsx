@@ -56,7 +56,7 @@ const WeatherApp = () => {
   return (
     <>
     <div>
-      <h1>Weather App</h1>
+      <h1 className='heading'>Weather App</h1>
 
       <WeatherApiSection onFetchWeather={getWeatherData} />
 

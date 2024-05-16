@@ -168,6 +168,8 @@ body{
   background: teal;
 }
 
-h1{
+.heading{
   font-family: Andalé Mono,monospace;
+  font-style: oblique;
+  font-stretch: narrower;
 }
