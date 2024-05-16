@@ -29,7 +29,8 @@ import Weather from './components/Weather';
 
 //   const getWeatherData = async (city) => {
 //     // Replace '{API key}' with your actual OpenWeatherMap API key
-    const apiKey = 'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}';
+    // const apiKey = 'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}';
+    const apiKey = 'https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m';
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
 //     try {
